@@ -93,6 +93,39 @@
       font-size: 20px;
       cursor: pointer;
     }
+    <style>
+  .menu-button {
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #333;
+  }
+.menu-content {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  }
+ .menu-content a {
+    display: block;
+    padding: 8px;
+    color: #000;
+    text-decoration: none;
+  }
+ .menu-content a:hover {
+    background-color: #f2f2f2;
+  }
+    .menu-content {
+      display: none;
+      background: #f0f0f0;
+      padding: 10px;
+    }
 background-color: #333;
       color: white;
       padding: 15px;
