@@ -107,10 +107,11 @@ header {
 .instagram-btn:hover { background-color: #a42d6a; }
 .tiktok-btn:hover { background-color: #111111; }
 .fiverr-btn:hover { background-color: #17a863; }
-  </style>
-  
+ </style>
+ <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
+</style>
+  </head>
 <body>
 <header>
   Md. Harun Or Rashid
