@@ -6,16 +6,83 @@
   <title>Md. Harun Or Rashid</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-     
-        
-</style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+/* Header Style */
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Menu Button */
+.menu-button {
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+/* Menu Content Style */
+.menu-content {
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.menu-content a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+/* Unique Button Colors */
+.menu-content a:nth-child(1) { background-color: #e74c3c; }   /* Red */
+.menu-content a:nth-child(2) { background-color: #2980b9; }   /* Blue */
+.menu-content a:nth-child(3) { background-color: #27ae60; }   /* Green */
+.menu-content a:nth-child(4) { background-color: #f39c12; }   /* Orange */
+.menu-content a:nth-child(5) { background-color: #8e44ad; }   /* Purple */
+.menu-content a:nth-child(6) { background-color: #16a085; }   /* Teal */
+.menu-content a:nth-child(7) { background-color: #d35400; }   /* Dark Orange */
+.menu-content a:nth-child(8) { background-color: #2c3e50; }   /* Dark Blue */
+.menu-content a:nth-child(9) { background-color: #7f8c8d; }   /* Gray */
+/* Section Content */
+.section {
+  display: none;
+  padding: 20px;
+  background: #fff;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+/* Certificates Image Styling */
+#certificate img {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .menu-content a {
+    display: block;
+    margin: 10px 0;
+  }
+
   </style>
-  <head>
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
