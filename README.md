@@ -430,3 +430,48 @@ video {
   .links .btn i {
   font-size: 18px;
 }
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      position: relative;
+    }
+    .menu-button {
+      font-size: 20px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: white;
+    }
+    .menu-content {
+      display: none;
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      background: #f1f1f1;
+      border: 1px solid #ccc;
+      padding: 10px;
+      z-index: 1000;
+    }
+    .menu-content a {
+      display: block;
+      padding: 8px;
+      color: #000;
+      text-decoration: none;
+    }
+    .menu-content a:hover {
+      background-color: #ddd;
+    }
+    .section {
+      display: none;
+      padding: 20px;
+    }
+  </style>
+</head>
+  <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
