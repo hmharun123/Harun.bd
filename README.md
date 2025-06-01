@@ -585,6 +585,16 @@ header {
   </video>
   <p><a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube Channel</a></p>
 </div>
+  <body>
+  <div class="container">
+
+    <!-- Search Bar -->
+    <h2>Search My Website</h2>
+    <div class="gcse-search"></div>
+  </div>
+
+  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee">
+</body>
   <script>
   function toggleMenu() {
     var menu = document.getElementById("menu");
