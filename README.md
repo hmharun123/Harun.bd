@@ -815,17 +815,9 @@ header {
       backToTopButton.classList.remove("show");
     }
   });
-
-  function scrollToTop() {
+ function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-</script>
-<script>
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-  <script>
-// Smooth scroll to section when clicking navigation links
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', function (e) {
     e.preventDefault();
@@ -865,7 +857,6 @@ if (contactForm) {
     contactForm.reset();
   });
 }
-</script>
 </script>
 
 </body>
