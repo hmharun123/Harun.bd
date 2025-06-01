@@ -107,7 +107,35 @@ header {
 .instagram-btn:hover { background-color: #a42d6a; }
 .tiktok-btn:hover { background-color: #111111; }
 .fiverr-btn:hover { background-color: #17a863; }
- </style>
+ }
+ /* General Reset */ body, h1, h2, h3, p, ul, li, a, button { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background-color: #f9f9f9; color: #333; line-height: 1.6; padding: 20px; }
+.section { display: none; margin: 20px 0; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); }
+.section.active { display: block; }
+img.profile { width: 150px; border-radius: 50%; margin-bottom: 15px; }
+img { max-width: 100%; height: auto; margin: 10px; border-radius: 10px; }
+h2 { color: #2c3e50; margin-bottom: 15px; }
+p, a { font-size: 16px; margin-bottom: 10px; }
+ul { list-style-type: none; }
+/* Button Styles */ .button, .btn, button { padding: 10px 15px; border: none; border-radius: 25px; color: #fff; cursor: pointer; text-decoration: none; font-weight: bold; margin: 5px; display: inline-block; transition: background-color 0.3s ease; }
+.button:hover, .btn:hover, button:hover { opacity: 0.9; }
+/* Specific Button Colors */ .fiverr { background-color: #1DBF73; }
+.btn.blue { background-color: #1877F2; }
+.btn.red { background-color: #FF0000; }
+.btn.darkgreen { background-color: #25D366; }
+.btn.purple { background-color: #8a3ab9; }
+.btn.pink { background-color: #FF69B4; }
+.btn.green { background-color: #1DBF73; }
+.icon { height: 16px; vertical-align: middle; margin-right: 5px; }
+blockquote { font-style: italic; background: #f0f0f0; padding: 10px; border-left: 5px solid #ccc; margin: 10px 0; border-radius: 5px; }
+form input, form textarea { width: 100%; padding: 10px; margin: 5px 0 15px 0; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; }
+form button { background-color: #3498db; }
+#backToTop { position: fixed; bottom: 20px; right: 20px; background-color: #333; color: #fff; border: none; padding: 10px 15px; border-radius: 50%; font-size: 18px; cursor: pointer; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.3); }
+.footer { text-align: center; margin-top: 40px; padding: 20px; background: #eee; border-radius: 10px; }
+.footer a { color: #333; margin: 0 5px; text-decoration: none; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; margin-top: 10px; }
+
+</style>
  <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </style>
