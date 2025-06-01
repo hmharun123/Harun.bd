@@ -824,6 +824,48 @@ header {
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+  <script>
+// Smooth scroll to section when clicking navigation links
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
+window.addEventListener('scroll', () => {
+  const sections = document.querySelectorAll('section, .section');
+  const scrollY = window.scrollY;
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 100;
+    const sectionHeight = section.offsetHeight;
+    const id = section.getAttribute('id');
+
+      document.querySelectorAll('nav a').forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${id}`) {
+          link.classList.add('active');
+        }
+      });
+    }
+  });
+});
+
+const contactForm = document.querySelector('#contact-form form');
+if (contactForm) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Thanks! Your message has been sent.');
+    contactForm.reset();
+  });
+}
+</script>
 </script>
 
 </body>
