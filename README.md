@@ -292,3 +292,101 @@ form button {
 form button:hover {
   background-color: #16a085;
 }
+/* Testimonials */
+blockquote {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-left: 5px solid #1abc9c;
+  font-style: italic;
+  margin-top: 10px;
+}
+/* Video */
+video {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+    .links .btn i {
+  margin-right: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+    .links .btn .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+    .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+.links .btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+/* Individual Button Colors */
+.green { background-color: #1dbf73; }
+.blue { background-color: #1877f2; }
+.red { background-color: #ff0000; }
+.darkgreen { background-color: #25d366; }
+.purple { background-color: #c32aa3; }
+.pink { background-color: #ff0050; }
+.links .btn:hover {
+  transform: scale(1.05);
+}
+.links .btn i {
+  font-size: 18px;
+}
+    #backToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  padding: 10px 12px;
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+#backToTop:hover {
+  background-color: #16a085;
+}
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 30px;
+}
+.footer a {
+  color: #1abc9c;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
