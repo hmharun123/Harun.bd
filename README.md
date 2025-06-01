@@ -210,3 +210,85 @@ nav a {
 nav a:hover {
   color: #1abc9c;
 }
+.btn {
+  display: inline-block;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #16a085;
+}
+/* Section Styling */
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+.section p,
+.section li,
+.section blockquote {
+  margin-bottom: 15px;
+}
+/* Image Row */
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+.image-row img {
+  max-width: 150px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s;
+}
+.image-row img:hover {
+  transform: scale(1.05);
+}
+/* Project Links */
+.project-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+.project-links a {
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+}
+.project-links a:hover {
+  text-decoration: underline;
+}
+/* Contact Form */
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+form button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #16a085;
+}
