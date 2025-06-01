@@ -135,11 +135,10 @@ form button { background-color: #3498db; }
 .footer a { color: #333; margin: 0 5px; text-decoration: none; }
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; margin-top: 10px; }
 
-</style>
  <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</style>
-  </head>
+ </head>
+ </style>
 <body>
 <header>
   Md. Harun Or Rashid
@@ -194,23 +193,19 @@ form button { background-color: #3498db; }
   <p>Watch my video tutorials on YouTube:</p>
   <video controls width="320">
     <source src="video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+    Your browser does not support the video tag.>
+  
   <p><a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube Channel</a></p>
 
-  <body>
   <div class="container">
 <!-- Search Bar -->
     <h2>Search My Website</h2>
     <div class="gcse-search">
-    </div>
-
-  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee">
 
   <div>
    div>id="profile" class="section active">
     <h2>My Profile</h2>
-    <img src="harun.jpg" alt="Harun's Photo" class="profile" />
+    <img src="harun.jpg" alt="Harun's Photo" class="profile" </p>
     <p><strong>Name:</strong> Md. Harun Or Rashid</p>
     <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
     <p><strong>Email:</strong> hmharun796@gmail.com</p>
@@ -323,27 +318,7 @@ form button { background-color: #3498db; }
     </p>
     <a href="#top">&uarr;</a>
   </footer>
-
-<style> 
-  }
-  #backToTop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    font-size: 20px;
-    border: none;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-    z-index: 1000;
-  }
- #backToTop.show {
-    display: block;
- }
-  </style>
+  
 <script>
   const backToTopButton = document.getElementById("backToTop");
 
@@ -416,7 +391,5 @@ if (contactForm) {
     document.getElementById(id).style.display = "block";
   }
 </script>
-
 </body>
-</style>
 </html>
