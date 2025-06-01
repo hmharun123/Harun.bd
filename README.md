@@ -646,7 +646,7 @@ header {
       <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank" style="background: #1DBF73;">Visit My Fiverr Profile</a>
       <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank" style="background: #1877F2;">Visit My Facebook</a>
       <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank" style="background: #8a3ab9;">View My Instagram</a>
-      <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
+      <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank" style="background: #FF69B4;">TikTok</a>
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank" style="background: #25D366;">WhatsApp</a>
     </div>
   </div>  <div id="about" class="section">
@@ -689,7 +689,6 @@ header {
     <h2>My Portfolio</h2>
     <ul>
       <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
-      <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank" style="background: #FF69B4;">TikTok</a>
       <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a></li>
       <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
       <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
