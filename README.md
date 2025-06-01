@@ -682,17 +682,14 @@ header {
       <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank" style="background: #8a3ab9;">View My Instagram</a>
       <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank" style="background: #FF69B4;">TikTok</a>
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank" style="background: #25D366;">WhatsApp</a>
-    </div>
     
   <div id="about" class="section">
   <h2>About</h2>
   <p>I am a freelancer specialized in data entry and online tasks.</p>
-</div>
 
 <div id="settings" class="section">
   <h2>Settings</h2>
   <p>Settings coming soon.</p>
-</div>
 
 <div class="certificate-section section">
   <h2>Certificate of Completion</h2>
