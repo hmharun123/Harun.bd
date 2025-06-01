@@ -649,31 +649,40 @@ header {
       <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank" style="background: #FF69B4;">TikTok</a>
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank" style="background: #25D366;">WhatsApp</a>
     </div>
-  </div>  <div id="about" class="section">
+    
+   <div id="about" class="section">
     <h2>About</h2>
     <p>I am a freelancer specialized in data entry and online tasks.</p>
   </div>  <div id="settings" class="section">
     <h2>Settings</h2>
     <p>Settings coming soon.</p>
-  </div>  <div class="certificate-section section">
+  </div>
+  
+   <div class="certificate-section section">
     <h2>Certificate of Completion</h2>
     <img src="certificate.jpg" alt="Certificate">
     <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
-  </div>  <div class="media-section section">
+  </div> 
+  
+   <div class="media-section section">
     <h2>My Photo & Video</h2>
     <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px;">
     <video controls width="400">
       <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-  </div>  <div class="image-row section">
+  </div> 
+  
+   <div class="image-row section">
     <img src="data-antry.png" alt="Data Entry">
     <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
     <img src="312.jpg" alt="Certificate">
     <img src="076ac6.jpg" alt="076ac6">
     <img src="SAMPLE.jpeg" alt="Sample">
     <img src="data.jpg" alt="Data">
-  </div>  <div class="gallery-section section">
+  </div> 
+  
+   <div class="gallery-section section">
     <h2>My Gallery</h2>
     <div class="gallery">
       <img src="076ac6.jpg" alt="Photo 1">
@@ -681,12 +690,14 @@ header {
       <img src="media/photo3.jpg" alt="Photo 3">
       <img src="media/photo4.jpg" alt="Photo 4">
     </div>
-    <section id="youtube" class="section">
+     
+   <section id="youtube" class="section">
     <h2>My YouTube Channel</h2>
     <p>Subscribe to my channel for tutorials, tips, and more!</p>
     <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-  </section>  
-    <section id="portfolio" class="section portfolio-section">
+  </section> 
+  
+   <section id="portfolio" class="section portfolio-section">
     <h2>My Portfolio</h2>
     <ul>
       <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
@@ -694,8 +705,9 @@ header {
       <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
       <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
     </ul>
-  </section>  
-    <section class="links section">
+  </section>
+  
+   <section class="links section">
     <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
     <a href="https://youtube.com/@mdharun-n6j" class="btn red" target="_blank"><i class="fa-brands fa-youtube"></i> YouTube</a>
     <a href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" class="btn darkgreen" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
@@ -703,6 +715,7 @@ header {
     <a href="https://www.tiktok.com/@user6071584366187" class="btn pink" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a>
     <a href="https://www.fiverr.com/s/dDlW3G3" class="btn green" target="_blank"><img src="fiverr-logo.png" alt="Fiverr" class="icon"> Fiverr</a>
   </section>
+  
   <section class="section">
     <h2>Testimonials</h2>
     <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
@@ -715,6 +728,7 @@ header {
       <textarea placeholder="Your Message" required></textarea><br>
       <button type="submit">Send Message</button>
     </form>
+    
   </section><button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
 
   <footer class="footer">
