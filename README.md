@@ -154,37 +154,42 @@ form button { background-color: #3498db; }
   <a href="#" onclick="showSection('media')">Tutorial</a>
   <a href="assets/Harun_CV.pdf" download>Download CV</a>
   <a href="mailto:hmharun796@gmail.com?subject=Hello&body=I want to connect with you.">Send Email</a>
-</div><div id="profile" class="section">
+<div>
+  <div id="profile" class="section">
   <h2>Profile</h2>
   <p>I am Md. Harun Or Rashid, a skilled and dedicated professional specializing in data entry, web research, and PDF to Excel conversions. I also create Payoneer account tutorials and provide project-based services through platforms like Fiverr.</p>
-</div><div id="privacy" class="section">
+
+<div id="privacy" class="section">
   <h2>Privacy Policy</h2>
   <p>All information collected through this site is used solely to improve user experience and will not be shared with third parties. You may contact me for any concerns about your data privacy.</p>
-</div><div id="contact" class="section">
+
+  <div id="contact" class="section">
   <h2>Contact</h2>
   <p>Email: hmharun796@gmail.com<br>
      Phone: +880 1648-131500<br>
      Facebook: <a href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a><br>
      WhatsApp: <a href="https://wa.me/8801648131500" target="_blank">Chat on WhatsApp</a>
   </p>
-</div><div id="about" class="section">
+
+   <div id="about" class="section">
   <h2>About</h2>
   <p>I'm passionate about providing efficient data entry and digital solutions. My goal is to ensure client satisfaction through quality work and timely delivery. I also manage a YouTube channel for educational content.</p>
-</div><div id="settings" class="section">
+
+  <div id="settings" class="section">
   <h2>Settings</h2>
   <p>Website Theme: Default<br>
      Language: English<br>
      Notifications: Enabled<br>
      <em>(Settings options can be expanded based on development needs)</em>
   </p>
-</div><div id="certificate" class="section">
+<div id="certificate" class="section">
   <h2>Certificates</h2>
   <ul>
     <li><img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate 1" width="200"></li>
     <li><img src="312.jpg" alt="Certificate 2" width="200"></li>
     <li><img src="076ac6.jpg" alt="Certificate 3" width="200"></li>
   </ul>
-</div><div id="media" class="section">
+<div id="media" class="section">
   <h2>Tutorial</h2>
   <p>Watch my video tutorials on YouTube:</p>
   <video controls width="320">
@@ -192,45 +197,18 @@ form button { background-color: #3498db; }
     Your browser does not support the video tag.
   </video>
   <p><a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube Channel</a></p>
-</div>
+
   <body>
   <div class="container">
-
-    <!-- Search Bar -->
+<!-- Search Bar -->
     <h2>Search My Website</h2>
-    <div class="gcse-search"></div>
-  </div>
+    <div class="gcse-search">
+    </div>
 
   <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee">
-</body>
-  <script>
-  function toggleMenu() {
-    var menu = document.getElementById("menu");
-    menu.style.display = (menu.style.display === "block") ? "none" : "block";
-  }
- window.onclick = function(event) {
-    if (!event.target.matches('.menu-button')) {
-      var dropdowns = document.getElementsByClassName("menu-content");
-      for (var i = 0; i < dropdowns.length; i++) {
-        dropdowns[i].style.display = "none";
-      }
-    }
-  }
- function showSection(id) {
-    var sections = document.querySelectorAll(".section");
-    sections.forEach(function(section) {
-      section.style.display = "none";
-    });
-    document.getElementById(id).style.display = "block";
-  }
-</script>
-</body>
-</html>
-  </style>
-  
-</head>
-<body>
-  <div id="profile" class="section active">
+
+  <div>
+   div>id="profile" class="section active">
     <h2>My Profile</h2>
     <img src="harun.jpg" alt="Harun's Photo" class="profile" />
     <p><strong>Name:</strong> Md. Harun Or Rashid</p>
@@ -239,7 +217,7 @@ form button { background-color: #3498db; }
     <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
     <p><strong>Profession:</strong> Freelancer</p>
     <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-  </div>  <div id="contact" class="section">
+  <div id="contact" class="section">
     <h2>Contact</h2>
     <p><strong>Phone:</strong> +8801648131500</p>
     <p><strong>Phone:</strong> +8801316888404</p>
@@ -269,7 +247,6 @@ form button { background-color: #3498db; }
   <h2>Certificate of Completion</h2>
   <img src="certificate.jpg" alt="Certificate">
   <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
-</div>
 
 <div class="media-section section">
   <h2>My Photo & Video</h2>
@@ -278,7 +255,6 @@ form button { background-color: #3498db; }
     <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div>
 
 <div class="image-row section">
   <img src="data-antry.png" alt="Data Entry">
@@ -287,7 +263,6 @@ form button { background-color: #3498db; }
   <img src="076ac6.jpg" alt="076ac6">
   <img src="SAMPLE.jpeg" alt="Sample">
   <img src="data.jpg" alt="Data">
-</div>
 
 <div class="gallery-section section">
   <h2>My Gallery</h2>
@@ -296,14 +271,12 @@ form button { background-color: #3498db; }
     <img src="media/photo2.jpg" alt="Photo 2">
     <img src="media/photo3.jpg" alt="Photo 3">
     <img src="media/photo4.jpg" alt="Photo 4">
-  </div>
 </div>
 
 <section id="youtube" class="section">
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
   <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-</section>
 
 <section id="portfolio" class="section portfolio-section">
   <h2>My Portfolio</h2>
@@ -313,7 +286,6 @@ form button { background-color: #3498db; }
     <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
     <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
   </ul>
-</section>
 
 <section class="links section">
   <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
@@ -322,28 +294,25 @@ form button { background-color: #3498db; }
   <a href="https://www.instagram.com/p/DIeAfFXT_oO/" class="btn purple" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
   <a href="https://www.tiktok.com/@user6071584366187" class="btn pink" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a>
   <a href="https://www.fiverr.com/s/dDlW3G3" class="btn green" target="_blank"><img src="fiverr-logo.png" alt="Fiverr" class="icon"> Fiverr</a>
-</section>
 
 <section class="section">
   <h2>Testimonials</h2>
-  <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
-  <blockquote>"A great developer to work with. Highly recommended!" - Client B</blockquote>
-</section>
-
-   <section class="section">
-    <h2>Testimonials</h2>
     <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
     <blockquote>"A great developer to work with. Highly recommended!" - Client B</blockquote>
-  </section>  <section id="contact-form" class="section">
+  
+  <section
+    id="contact-form" class="section">
     <h2>Contact Me</h2>
-    <form>
+    </section>
+    
+   <form>
       <input type="text" placeholder="Your Name" required><br>
       <input type="email" placeholder="Your Email" required><br>
       <textarea placeholder="Your Message" required></textarea><br>
       <button type="submit">Send Message</button>
     </form>
     
-  </section><button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
+  <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
 
   <footer class="footer">
     <p>© 2025 HM Harun. All rights reserved.</p>
@@ -373,9 +342,8 @@ form button { background-color: #3498db; }
   }
  #backToTop.show {
     display: block;
-  }
-</style>
-
+ }
+  </style>
 <script>
   const backToTopButton = document.getElementById("backToTop");
 
@@ -428,7 +396,27 @@ if (contactForm) {
     contactForm.reset();
   });
 }
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.style.display = (menu.style.display === "block") ? "none" : "block";
+  }
+ window.onclick = function(event) {
+    if (!event.target.matches('.menu-button')) {
+      var dropdowns = document.getElementsByClassName("menu-content");
+      for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].style.display = "none";
+      }
+    }
+  }
+ function showSection(id) {
+    var sections = document.querySelectorAll(".section");
+    sections.forEach(function(section) {
+      section.style.display = "none";
+    });
+    document.getElementById(id).style.display = "block";
+  }
 </script>
 
 </body>
+</style>
 </html>
