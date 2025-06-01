@@ -80,7 +80,33 @@ header {
     display: block;
     margin: 10px 0;
   }
-
+/* Common Style for Social Buttons */
+.social-btn {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+/* Platform Specific Colors */
+.facebook-btn { background-color: #3b5998; }   /* Facebook Blue */
+.youtube-btn { background-color: #FF0000; }    /* YouTube Red */
+.whatsapp-btn { background-color: #25D366; }   /* WhatsApp Green */
+.instagram-btn { background-color: #C13584; }  /* Instagram Pink */
+.tiktok-btn { background-color: #000000; }     /* TikTok Black */
+.fiverr-btn { background-color: #1dbf73; }     /* Fiverr Green */
+/* Hover Effects */
+.facebook-btn:hover { background-color: #2d4373; }
+.youtube-btn:hover { background-color: #cc0000; }
+.whatsapp-btn:hover { background-color: #1ebc59; }
+.instagram-btn:hover { background-color: #a42d6a; }
+.tiktok-btn:hover { background-color: #111111; }
+.fiverr-btn:hover { background-color: #17a863; }
   </style>
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
