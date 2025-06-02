@@ -510,7 +510,8 @@
     <i class="fa-brands fa-tiktok"></i> TikTok
   </a>
   <a href="https://www.fiverr.com/s/dDlW3G3"class="btn green" target="_blank">
-    <i class="fas fa-briefcase"></i> Fiverr</a>
+    <i class="fa-brands fa-fiverr"></i> Fiverr
+  </a>
   
 <!-- Back to Top Button -->
 <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">↑</button>
