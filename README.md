@@ -54,6 +54,26 @@
       margin: 20px auto;
       max-width: 600px;
     }
+    .section {
+  padding: 20px;
+  background-color: #f4f8fb;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.section p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
