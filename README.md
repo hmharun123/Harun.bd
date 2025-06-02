@@ -593,15 +593,6 @@ body {
   </script>
 </body>
 </html>
-<!-- Photo & Video Section -->
-<div class="media-section">
-  <h2>My Photo & Video</h2>
-  <img src="media/myphoto.jpg" alt="My Photo" class="media-photo" />
-  <video controls class="media-video">
-    <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</div>
 
 <!DOCTYPE html>
 <html lang="en">
