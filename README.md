@@ -174,7 +174,30 @@
       <p><strong>Phone 1:</strong> <a href="tel:+8801648131500">+8801648131500</a></p>
       <p><strong>Phone 2:</strong> <a href="tel:+8801316888404">+8801316888404</a></p>
     </div>
+  <div class="social-order-section">
+
+  <h2>Hire Me or Connect with Me</h2>
+
+  <div class="order-buttons">
+    <a href="mailto:harunrm900@gmail.com?subject=Hiring%20Request&body=Hello,%20I%20would%20like%20to%20hire%20you%20for%20a%20project." target="_blank" class="btn email">
+      <i class="fas fa-envelope"></i> Order Now (Email)
+    </a>
+    <a href="https://wa.me/8801648131500?text=Hi%20Harun,%20I%20am%20interested%20in%20your%20services." target="_blank" class="btn whatsapp">
+      <i class="fab fa-whatsapp"></i> Order on WhatsApp
+    </a>
   </div>
+
+  <h3>Connect on Social Media</h3>
+
+  <div class="social-buttons">
+    <a class="btn fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank"><i class="fas fa-briefcase"></i> Fiverr</a>
+    <a class="btn facebook" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+    <a class="btn instagram" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    <a class="btn tiktok" href="https://www.tiktok.com/@user6071584366187" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+    <a class="btn whatsapp-alt" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+  </div>
+
+</div>
 </section>
 </body>
 </html>
