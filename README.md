@@ -20,8 +20,6 @@
       right: 20px;
       z-index: 1001;
     }
-
-    /* মেনু কন্টেইনার */
     #menu {
       display: none;
       position: fixed;
@@ -34,8 +32,6 @@
       width: 280px;
       z-index: 1000;
     }
-
-    /* লিঙ্কগুলো */
     #menu a {
       display: block;
       padding: 8px 0;
@@ -49,8 +45,6 @@
     #menu a:hover {
       background-color: #f0f0f0;
     }
-
-    /* সেকশন গুলো স্টাইল */
     .section {
       display: none;
       margin-top: 80px;
@@ -62,8 +56,7 @@
     .section.active {
       display: block;
     }
-
-    /* Google Search Bar Container */
+   /* Google Search Bar Container */
     #menu .gcse-search {
       margin-top: 15px;
     }
@@ -168,8 +161,10 @@
       if(section) section.classList.add('active');
 
       // Hide menu after clicking link
-      menu.style.display = 'none';
-    }
-  </script>
+      menu.style.display = 'none'
+    </script>
+   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
+   <div class="gcse-search"></div>
+  </div>
 </body>
 </html>
