@@ -352,6 +352,46 @@
     <img src="media/photo3.jpg" alt="Photo 3" />
     <img src="media/photo4.jpg" alt="Photo 4" />
   </div>
+<!-- YouTube Section -->
+<section class="section">
+  <h2>My YouTube Channel</h2>
+  <p>Subscribe to my channel for tutorials, tips, and more!</p>
+  <a class="btn red" href="https://youtube.com/@mdharun-n6j" target="_blank">
+    <i class="fa-brands fa-youtube"></i> Visit My YouTube
+  </a>
+</section>
+
+<!-- Portfolio Section -->
+<section class="section portfolio-section">
+  <h2>My Portfolio</h2>
+  <ul class="portfolio-list">
+    <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
+    <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a></li>
+    <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
+    <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
+  </ul>
+</section>
+
+<!-- Social Media Links -->
+<section class="links">
+  <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
+    <i class="fa-brands fa-facebook-f"></i> Facebook
+  </a>
+  <a href="https://youtube.com/@mdharun-n6j" class="btn red" target="_blank">
+    <i class="fa-brands fa-youtube"></i> YouTube
+  </a>
+  <a href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" class="btn darkgreen" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+  </a>
+  <a href="https://www.instagram.com/p/DIeAfFXT_oO/" class="btn purple" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+  <a href="https://www.tiktok.com/@user6071584366187" class="btn pink" target="_blank">
+    <i class="fa-brands fa-tiktok"></i> TikTok
+  </a>
+  <a href="https://www.fiverr.com/s/dDlW3G3" class="btn green" target="_blank">
+    <img src="fiverr-logo.png" alt="Fiverr" class="icon" /> Fiverr
+  </a>
 
 </section>
 </body>
