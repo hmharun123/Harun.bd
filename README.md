@@ -78,16 +78,10 @@
     <a href="#" onclick="showSection('media'); return false;">Tutorial</a>
     <a href="assets/Harun_CV.pdf" download>Download CV</a>
     <a href="mailto:hmharun796@gmail.com?subject=Hello&body=I want to connect with you.">Send Email</a>
-
-    <!-- Google Custom Search Bar -->
-    <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
-    <div class="gcse-search"></div>
-  </div>
-
-  <!-- সেকশন গুলো -->
-  <div id="profile" class="section">
-    <h2>Profile</h2>
-    <p>I am Md. Harun Or Rashid, a skilled and dedicated professional specializing in data entry, web research, and PDF to Excel conversions. I also create Payoneer account tutorials and provide project-based services through platforms like Fiverr.</p>
+  
+   <div id="profile" class="section">
+     <h2>Profile</h2>
+      <p>I am Md. Harun Or Rashid, a skilled and dedicated professional specializing in data entry, web research, and PDF to Excel conversions. I also create Payoneer account tutorials and provide project-based services through platforms like Fiverr.</p>
   </div>
 
   <div id="privacy" class="section">
