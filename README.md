@@ -139,6 +139,59 @@
 .whatsapp-alt {
   background-color: #128C7E;
 }
+.certificate-section,
+.media-section,
+.image-row,
+.gallery-section {
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.certificate-section img,
+.media-section img,
+.image-row img,
+.gallery img {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.media-photo {
+  width: 300px;
+}
+
+.media-video {
+  width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.image-row img {
+  width: 150px;
+  height: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
