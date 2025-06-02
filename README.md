@@ -501,16 +501,6 @@ body {
   </video>
 </div>
 
-<!-- Image Row -->
-<div class="image-row">
-  <img src="dara-antry.png" alt="Data Entry" />
-  <img src="property details.jpg" alt="Certificate" />
-  <img src="312.jpg" alt="Certificate" />
-  <img src="076ac6.jpg" alt="076ac6" />
-  <img src="SAMPLE.jpeg" alt="Sample" />
-  <img src="data.jpg" alt="Data" />
-</div>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -555,15 +545,7 @@ body {
   </script>
 </body>
 </html>
-<!-- Gallery Section -->
-<div class="gallery-section">
-  <h2>My Gallery</h2>
-  <div class="gallery">
-    <img src="076ac6.jpg" alt="Photo 1" />
-    <img src="media/photo2.jpg" alt="Photo 2" />
-    <img src="media/photo3.jpg" alt="Photo 3" />
-    <img src="media/photo4.jpg" alt="Photo 4" />
-  </div>
+
 <!-- YouTube Section -->
 <section class="section">
   <h2>My YouTube Channel</h2>
