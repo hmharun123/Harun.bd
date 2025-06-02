@@ -241,10 +241,7 @@
 /* Color Variants */
 .blue { background-color: #1877F2; }
 .red { background-color: #FF0000; }
-.darkgreen { background-color: #25D366; }
-.purple { background-color: #C13584; }
-.pink { background-color: #FF69B4; }
-.green { background-color: #1DBF73; }
+}
 
 .btn:hover {
   opacity: 0.9;
@@ -253,6 +250,33 @@
 .icon {
   width: 20px;
   height: auto;
+}
+.portfolio-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+/* Button Colors */
+.orange { background-color: #f57c00; }
+.teal { background-color: #009688; }
+.purple { background-color: #9c27b0; }
+.darkblue { background-color: #1a237e; }
+
+.btn:hover {
+  opacity: 0.85;
 }
   </style>
   <!-- Google CSE Script -->
