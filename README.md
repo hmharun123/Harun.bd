@@ -263,8 +263,43 @@
     <a class="btn tiktok" href="https://www.tiktok.com/@user6071584366187" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
     <a class="btn whatsapp-alt" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
   </div>
-
+<!-- Certificate Section -->
+<div class="certificate-section">
+  <h2>Certificate of Completion</h2>
+  <img src="certificate.jpg" alt="Certificate" />
+  <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate" />
 </div>
+
+<!-- Photo & Video Section -->
+<div class="media-section">
+  <h2>My Photo & Video</h2>
+  <img src="media/myphoto.jpg" alt="My Photo" class="media-photo" />
+  <video controls class="media-video">
+    <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<!-- Image Row -->
+<div class="image-row">
+  <img src="data-antry.png" alt="Data Entry" />
+  <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate" />
+  <img src="312.jpg" alt="Certificate" />
+  <img src="076ac6.jpg" alt="076ac6" />
+  <img src="SAMPLE.jpeg" alt="Sample" />
+  <img src="data.jpg" alt="Data" />
+</div>
+
+<!-- Gallery Section -->
+<div class="gallery-section">
+  <h2>My Gallery</h2>
+  <div class="gallery">
+    <img src="076ac6.jpg" alt="Photo 1" />
+    <img src="media/photo2.jpg" alt="Photo 2" />
+    <img src="media/photo3.jpg" alt="Photo 3" />
+    <img src="media/photo4.jpg" alt="Photo 4" />
+  </div>
+
 </section>
 </body>
 </html>
