@@ -38,7 +38,64 @@ body {
 .gallery img:hover {
   transform: scale(1.05);
 }
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.title {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 20px;
+}
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.video-thumb {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  transition: transform 0.3s;
+}
+.video-thumb:hover {
+  transform: scale(1.03);
+}
 
+/* Fullscreen Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  padding-top: 60px;
+}
+.modal-video {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-height: 80%;
+}
+.close {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
 /* Fullscreen Modal */
 .modal {
   display: none;
