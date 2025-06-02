@@ -450,12 +450,20 @@
 <!-- Portfolio Section -->
 <section class="section portfolio-section">
   <h2>My Portfolio</h2>
-  <ul class="portfolio-list">
-    <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
-    <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a></li>
-    <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
-    <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
-  </ul>
+  <div class="portfolio-buttons">
+    <a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank" class="btn orange">
+      Sample Data Entry Work
+    </a>
+    <a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank" class="btn teal">
+      Product Listing (Excel)
+    </a>
+    <a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank" class="btn purple">
+      Web Research Sample
+    </a>
+    <a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank" class="btn darkblue">
+      PDF to Excel Conversion
+    </a>
+  </div>
 </section>
 
 <!-- Social Media Links -->
