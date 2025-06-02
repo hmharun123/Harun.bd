@@ -239,25 +239,12 @@
 }
 
 /* Color Variants */
-.whatsapp {
-  background-color: #25D366;
-}
-
-.fiverr {
-  background-color: #1DBF73;
-}
-
-.facebook {
-  background-color: #3b5998;
-}
-
-.instagram {
-  background-color: #E1306C;
-}
-
-.tiktok {
-  background-color: #010101;
-}
+.blue { background-color: #1877F2; }
+.red { background-color: #FF0000; }
+.darkgreen { background-color: #25D366; }
+.purple { background-color: #C13584; }
+.pink { background-color: #FF69B4; }
+.green { background-color: #1DBF73; }
 
 .btn:hover {
   opacity: 0.9;
