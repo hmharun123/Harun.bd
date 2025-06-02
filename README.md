@@ -447,7 +447,7 @@
 
 <!-- Image Row -->
 <div class="image-row">
-  <img src="data-antry.png" alt="Data Entry" />
+  <img src="dara-antry.png" alt="Data Entry" />
   <img src="property details.jpg" alt="Certificate" />
   <img src="312.jpg" alt="Certificate" />
   <img src="076ac6.jpg" alt="076ac6" />
