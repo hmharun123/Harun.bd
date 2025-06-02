@@ -548,6 +548,29 @@ body {
   <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate" />
 </div>
 
+<script>
+    const modal = document.getElementById("video-modal");
+    const modalVideo = document.getElementById("modal-video");
+    const close = document.querySelector(".close");
+
+    document.querySelectorAll(".video-thumb").forEach(video => {
+      video.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalVideo.src = video.src;
+        modalVideo.play();
+      });
+    });
+
+    close.addEventListener("click", () => {
+      modal.style.display = "none";
+      modalVideo.pause();
+      modalVideo.src = "";
+    });
+</script>
+
+</body>
+</html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -597,25 +620,6 @@ body {
     <img class="modal-content" id="modal-img">
   </div>
 
-  <script>
-    <script>
-    const modal = document.getElementById("video-modal");
-    const modalVideo = document.getElementById("modal-video");
-    const close = document.querySelector(".close");
-
-    document.querySelectorAll(".video-thumb").forEach(video => {
-      video.addEventListener("click", () => {
-        modal.style.display = "block";
-        modalVideo.src = video.src;
-        modalVideo.play();
-      });
-    });
-
-    close.addEventListener("click", () => {
-      modal.style.display = "none";
-      modalVideo.pause();
-      modalVideo.src = "";
-    });
   <script>
     const modal = document.getElementById("modal");
     const modalImg = document.getElementById("modal-img");
