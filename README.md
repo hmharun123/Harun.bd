@@ -192,6 +192,68 @@
   height: auto;
   border-radius: 12px;
 }
+.section {
+  padding: 30px;
+  text-align: center;
+}
+
+.portfolio-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.portfolio-list li {
+  margin: 10px 0;
+}
+
+.portfolio-list a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.btn i {
+  font-size: 18px;
+}
+
+/* Color Variants */
+.blue { background-color: #1877F2; }
+.red { background-color: #FF0000; }
+.darkgreen { background-color: #25D366; }
+.purple { background-color: #C13584; }
+.pink { background-color: #FF69B4; }
+.green { background-color: #1DBF73; }
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.icon {
+  width: 20px;
+  height: auto;
+}
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
