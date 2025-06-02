@@ -509,9 +509,9 @@
   <a href="https://www.tiktok.com/@user6071584366187" class="btn pink" target="_blank">
     <i class="fa-brands fa-tiktok"></i> TikTok
   </a>
-  <a href="https://www.fiverr.com/s/dDlW3G3" class="btn green" target="_blank">
-    <img src="fiverr-logo.png" alt="Fiverr" class="icon" /> Fiverr
-  </a>
+  <a href="https://www.fiverr.com/s/dDlW3G3"class="btn green" target="_blank">
+    <i class="fas fa-briefcase"></i> Fiverr</a>
+  
 <!-- Back to Top Button -->
 <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">↑</button>
 </section>
