@@ -139,6 +139,22 @@
       document.getElementById(id).style.display = "block";
     }
   </script>
-
+<section id="home" class="section active">
+  <h2>Welcome to My Profile</h2>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
+    <img src="harun.jpg" alt="Harun's Photo" class="profile" style="width: 180px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+    
+    <div>
+      <p><strong>Name:</strong> Md. Harun Or Rashid</p>
+      <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
+      <p><strong>Email:</strong> <a href="mailto:hmharun796@gmail.com">hmharun796@gmail.com</a></p>
+      <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
+      <p><strong>Profession:</strong> Freelancer</p>
+      <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+      <p><strong>Phone 1:</strong> <a href="tel:+8801648131500">+8801648131500</a></p>
+      <p><strong>Phone 2:</strong> <a href="tel:+8801316888404">+8801316888404</a></p>
+    </div>
+  </div>
+</section>
 </body>
 </html>
