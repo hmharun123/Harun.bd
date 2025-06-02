@@ -515,6 +515,17 @@
 <!-- Back to Top Button -->
 <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">↑</button>
 </section>
+<script>
+// Show/hide the button on scroll
+window.onscroll = function() {
+  const btn = document.getElementById("backToTopBtn");
+  btn.style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) ? "block" : "none";
+};
 
+// Scroll to top smoothly
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
 </body>
 </html>
