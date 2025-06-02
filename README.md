@@ -489,7 +489,9 @@
   <a href="https://www.fiverr.com/s/dDlW3G3" class="btn green" target="_blank">
     <img src="fiverr-logo.png" alt="Fiverr" class="icon" /> Fiverr
   </a>
-
+<!-- Back to Top Button -->
+<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">↑</button>
 </section>
+
 </body>
 </html>
