@@ -651,16 +651,18 @@ window.onscroll = function() {
   const btn = document.getElementById("backToTopBtn");
   btn.style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) ? "block" : "none";
 };
+  
 // Scroll to top smoothly
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-<script>
+</script>
+
     const modal = document.getElementById("modal");
     const modalImg = document.getElementById("modal-img");
     const close = document.getElementsByClassName("close")[0];
     const images = document.querySelectorAll(".gallery img");
-}
+
     images.forEach((img) => {
       img.addEventListener("click", () => {
         modal.style.display = "block";
