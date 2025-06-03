@@ -548,31 +548,6 @@ body {
   <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate" />
 </div>
 
-<script>
-    const modal = document.getElementById("video-modal");
-    const modalVideo = document.getElementById("modal-video");
-    const close = document.querySelector(".close");
-
-    document.querySelectorAll(".video-thumb").forEach(video => {
-      video.addEventListener("click", () => {
-        modal.style.display = "block";
-        modalVideo.src = video.src;
-        modalVideo.play();
-      });
-    });
-
-    close.addEventListener("click", () => {
-      modal.style.display = "none";
-      modalVideo.pause();
-      modalVideo.src = "";
-    });
-</script>
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -595,8 +570,6 @@ body {
     <video controls id="modal-video" class="modal-video" autoplay></video>
   </div>
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -619,26 +592,6 @@ body {
     <span class="close">&times;</span>
     <img class="modal-content" id="modal-img">
   </div>
-
-  <script>
-    const modal = document.getElementById("modal");
-    const modalImg = document.getElementById("modal-img");
-    const close = document.getElementsByClassName("close")[0];
-    const images = document.querySelectorAll(".gallery img");
-
-    images.forEach((img) => {
-      img.addEventListener("click", () => {
-        modal.style.display = "block";
-        modalImg.src = img.src;
-      });
-    });
-
-    close.onclick = function () {
-      modal.style.display = "none";
-    };
-  </script>
-</body>
-</html>
 
 <!-- YouTube Section -->
 <section class="section">
@@ -698,11 +651,44 @@ window.onscroll = function() {
   const btn = document.getElementById("backToTopBtn");
   btn.style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) ? "block" : "none";
 };
-
 // Scroll to top smoothly
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+<script>
+    const modal = document.getElementById("modal");
+    const modalImg = document.getElementById("modal-img");
+    const close = document.getElementsByClassName("close")[0];
+    const images = document.querySelectorAll(".gallery img");
+}
+    images.forEach((img) => {
+      img.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalImg.src = img.src;
+      });
+    });
+   close.onclick = function () {
+      modal.style.display = "none";
+    };
+    <script>
+    const modal = document.getElementById("video-modal");
+    const modalVideo = document.getElementById("modal-video");
+    const close = document.querySelector(".close");
+}
+        document.querySelectorAll(".video-thumb").forEach(video => {
+        video.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalVideo.src = video.src;
+        modalVideo.play();
+      });
+    });
+     close.addEventListener("click", () => {
+      modal.style.display = "none";
+      modalVideo.pause();
+      modalVideo.src = "";
+    });
+</script>
+  </script>
 </script>
 </body>
 </html>
