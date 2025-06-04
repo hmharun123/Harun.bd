@@ -570,28 +570,6 @@ body {
     <video controls id="modal-video" class="modal-video" autoplay></video>
   </div>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Gallery</title>
-  <link rel="stylesheet" href="gallery.css" />
-</head>
-<body>
-  <h2 class="title">My Gallery</h2>
-  <div class="gallery">
-    <img src="dara-antry.png" alt="Data Entry" />
-    <img src="property details.jpg" alt="Property Details" />
-    <img src="312.jpg" alt="Certificate" />
-    <img src="076ac6.jpg" alt="076ac6" />
-    <img src="SAMPLE.jpeg" alt="Sample" />
-    <img src="data.jpg" alt="Data" />
-  </div>
-
-  <!-- Fullscreen Modal -->
-  <div id="modal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modal-img">
-  </div>
 
 <!-- YouTube Section -->
 <section class="section">
