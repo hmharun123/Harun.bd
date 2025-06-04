@@ -622,6 +622,33 @@ window.onscroll = function() {
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-</script>   
+</script>  
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="contact-form-section">
+    <h2>Contact Me</h2>
+    <form action="send_email.php" method="POST" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required placeholder="Your Name">
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required placeholder="Your Email">
+
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" rows="5" required placeholder="Your Message"></textarea>
+
+      <button type="submit" class="btn send-btn">Send Message</button>
+    </form>
+  </section>
+
 </body>
 </html>
+
