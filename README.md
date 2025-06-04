@@ -504,10 +504,10 @@ body {
 </head>
 <body>
 
-  <!-- Three dot button -->
+<!-- Three dot button -->
   <div class="menu-toggle" onclick="toggleMenu()">☰</div>
 
-  <!-- Menu content -->
+  <!-- Dropdown menu -->
   <div class="menu-content" id="menu">
     <a href="#" onclick="showSection('profile')">Profile</a>
     <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
@@ -516,78 +516,82 @@ body {
     <a href="#" onclick="showSection('settings')">Settings</a>
     <a href="#" onclick="showSection('certificate')">Certificates</a>
     <a href="#" onclick="showSection('media')">Tutorial</a>
-    <a href="assets/Md_Harun_Or_Rashid_CV_Image.pdf"download>Download CV</a>
+    <a href="assets/Harun_CV.pdf" download>Download CV</a>
     <a href="mailto:hmharun796@gmail.com?subject=Hello&body=I want to connect with you.">Send Email</a>
   </div>
 
-  <!-- Google Search Bar always visible on homepage -->
-  <div class="gcse-search"></div>
-
   <!-- Sections -->
-  <div id="profile" class="section">
+  <div id="profile" class="section active">
     <h2>Profile</h2>
-    <p>I am Md. Harun Or Rashid, a skilled and dedicated professional specializing in data entry, web research, and PDF to Excel conversions...</p>
+    <p>I am Md. Harun Or Rashid, a skilled and dedicated professional...</p>
   </div>
 
-  <div id="privacy" class="section" style="display:none">
+  <div id="privacy" class="section">
     <h2>Privacy Policy</h2>
-    <p>All information collected through this site is used solely to improve user experience...</p>
+    <p>All information collected through this site is used solely...</p>
   </div>
 
-  <div id="contact" class="section" style="display:none">
+  <div id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: hmharun796@gmail.com<br>Phone: +880 1648-131500<br>
-    Facebook: <a href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit</a><br>
-    WhatsApp: <a href="https://wa.me/8801648131500" target="_blank">Chat</a></p>
+    <p>Email: hmharun796@gmail.com<br>Phone: +880 1648-131500</p>
   </div>
 
-  <div id="about" class="section" style="display:none">
+  <div id="about" class="section">
     <h2>About</h2>
     <p>I'm passionate about providing efficient data entry and digital solutions...</p>
   </div>
 
-  <div id="settings" class="section" style="display:none">
+  <div id="settings" class="section">
     <h2>Settings</h2>
-    <p>Website Theme: Default<br>Language: English<br>Notifications: Enabled</p>
+    <p>Website Theme: Default<br>Language: English</p>
   </div>
 
-  <div id="certificate" class="section" style="display:none">
+  <div id="certificate" class="section">
     <h2>Certificates</h2>
     <ul>
-      <li><img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate 1" width="200" /></li>
-      <li><img src="312.jpg" alt="Certificate 2" width="200" /></li>
-      <li><img src="076ac6.jpg" alt="Certificate 3" width="200" /></li>
+      <li><img src="file_00000000875861f990b4e5fffbcbb32e.png" width="200" /></li>
+      <li><img src="312.jpg" width="200" /></li>
+      <li><img src="076ac6.jpg" width="200" /></li>
     </ul>
   </div>
 
-  <div id="media" class="section" style="display:none">
+  <div id="media" class="section">
     <h2>Tutorial</h2>
     <video controls width="320">
-      <source src="video.mp4" type="video/mp4" />
+      <source src="video.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p><a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube Channel</a></p>
   </div>
 
+  <!-- JavaScript -->
   <script>
     function toggleMenu() {
-      var menu = document.getElementById("menu");
-      menu.style.display = (menu.style.display === "block") ? "none" : "block";
+      const menu = document.getElementById('menu');
+      menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
     }
 
     function showSection(id) {
-      var sections = document.getElementsByClassName("section");
-      for (var i = 0; i < sections.length; i++) {
-        sections[i].style.display = "none";
+      // Hide menu
+      document.getElementById('menu').style.display = 'none';
+
+      // Hide all sections
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => section.classList.remove('active'));
+
+      // Show selected section
+      const target = document.getElementById(id);
+      if (target) {
+        target.classList.add('active');
       }
-      document.getElementById(id).style.display = "block";
     }
-  </script>
-<section id="home" class="section active">
-  <h2>Welcome to My Profile</h2>
-  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
-    <img src="harun.jpg" alt="Harun's Photo" class="profile" style="width: 180px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-    
+
+    // Optional: Click outside to close menu
+    window.addEventListener('click', function(e) {
+      if (!e.target.matches('.menu-button')) {
+        document.getElementById('menu').style.display = 'none';
+      }
+      </script>
     <div>
       <p><strong>Name:</strong> Md. Harun Or Rashid</p>
       <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
