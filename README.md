@@ -625,6 +625,18 @@ function scrollToTop() {
 }
 </script>  
 
+<!-- Contact Form Start -->
+<section class="contact-section">
+  <h2>Contact Me</h2>
+  <form action="https://formsubmit.co/harunrm900@email.com" method="POST" class="contact-form">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+<!-- Contact Form End -->
 </body>
 </html>
 
