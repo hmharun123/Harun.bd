@@ -564,6 +564,8 @@ body {
   </a>
 </section>
 
+<a href="video.html" class="button" style="background-color:#FF5733;">My Video</a>
+
 <!-- Portfolio Section -->
 <section class="section portfolio-section">
   <h2>My Portfolio</h2>
