@@ -463,6 +463,23 @@ body {
 .contact-form button:hover {
   background-color: #45a049;
 }
+.gallery-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745; /* সবুজ */
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-button:hover {
+  background-color: #218838; /* হোভার হলে গাঢ় সবুজ */
+  transform: scale(1.05);
+}
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
