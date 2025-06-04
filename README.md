@@ -548,6 +548,13 @@ body {
   <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate" />
 </div>
 
+<!-- Homepage section -->
+<section id="gallery-link">
+  <h2>My Gallery</h2>
+  <p>Click below to view my full photo gallery.</p>
+  <a href="gallery.html" class="gallery-button">View Gallery</a>
+</section>
+
 <!-- YouTube Section -->
 <section class="section">
   <h2>My YouTube Channel</h2>
