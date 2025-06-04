@@ -417,7 +417,52 @@ body {
   background-color: #e91e63; /* গা dark গোলাপি */
   transform: scale(1.1);
 }
+/* Contact Section Styles */
+.contact-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
 
+.contact-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
