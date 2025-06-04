@@ -564,7 +564,6 @@ body {
   </a>
 </section>
 
-<a href="video.html" class="button" style="background-color:#FF5733;">My Video</a>
 <video controls width="400">
   <source src="media/myvideo.mp4" type="video/mp4" />
 </video>
