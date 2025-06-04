@@ -623,41 +623,6 @@ window.onscroll = function() {
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-</script>
-
-    const modal = document.getElementById("modal");
-    const modalImg = document.getElementById("modal-img");
-    const close = document.getElementsByClassName("close")[0];
-    const images = document.querySelectorAll(".gallery img");
-
-    images.forEach((img) => {
-      img.addEventListener("click", () => {
-        modal.style.display = "block";
-        modalImg.src = img.src;
-      });
-    });
-   close.onclick = function () {
-      modal.style.display = "none";
-    };
-    <script>
-    const modal = document.getElementById("video-modal");
-    const modalVideo = document.getElementById("modal-video");
-    const close = document.querySelector(".close");
-}
-        document.querySelectorAll(".video-thumb").forEach(video => {
-        video.addEventListener("click", () => {
-        modal.style.display = "block";
-        modalVideo.src = video.src;
-        modalVideo.play();
-      });
-    });
-     close.addEventListener("click", () => {
-      modal.style.display = "none";
-      modalVideo.pause();
-      modalVideo.src = "";
-    });
-</script>
-  </script>
-</script>
+</script>   
 </body>
 </html>
