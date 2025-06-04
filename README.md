@@ -565,6 +565,10 @@ body {
 </section>
 
 <a href="video.html" class="button" style="background-color:#FF5733;">My Video</a>
+<video controls width="400">
+  <source src="media/myvideo.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 <!-- Portfolio Section -->
 <section class="section portfolio-section">
