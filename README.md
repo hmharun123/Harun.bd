@@ -466,7 +466,7 @@ body {
 .gallery-button {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #28a745; /* সবুজ */
+  background-color: #28a745; 
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -477,9 +477,25 @@ body {
 }
 
 .gallery-button:hover {
-  background-color: #218838; /* হোভার হলে গাঢ় সবুজ */
+  background-color: #218838; 
   transform: scale(1.05);
 }
+<style>
+.cv-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.cv-button:hover {
+  background-color: #45a049;
+}
+</style>
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
