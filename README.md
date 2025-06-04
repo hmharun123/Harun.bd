@@ -417,6 +417,7 @@ body {
   background-color: #e91e63; /* গা dark গোলাপি */
   transform: scale(1.1);
 }
+style.css
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
