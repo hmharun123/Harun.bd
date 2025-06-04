@@ -551,7 +551,7 @@ body {
 <!-- Homepage section -->
 <section id="gallery-link">
   <h2>My Gallery</h2>
-  <p>Click below to view my full photo gallery.</p>
+  <p>gallery.html.</p>
   <a href="gallery.html" class="gallery-button">View Gallery</a>
 </section>
 
