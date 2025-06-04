@@ -417,6 +417,11 @@ body {
   background-color: #e91e63; /* গা dark গোলাপি */
   transform: scale(1.1);
 }
+h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+
 style.css
   </style>
   <!-- Google CSE Script -->
