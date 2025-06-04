@@ -602,6 +602,51 @@ body {
   </a>
 </section>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Video</title>
+  <link rel="stylesheet" href="video.css" />
+</head>
+<body>
+  <h2 class="title">My Video</h2>
+
+  <div class="video-gallery">
+    <video class="video-thumb" src="media/video1.mp4" poster="media/thumb1.jpg"></video>
+    <video class="video-thumb" src="media/video2.mp4" poster="media/thumb2.jpg"></video>
+    <video class="video-thumb" src="media/video3.mp4" poster="media/thumb3.jpg"></video>
+    <video class="video-thumb" src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" poster="media/thumb4.jpg"></video>
+  </div>
+
+  <!-- Modal for fullscreen video -->
+  <div id="video-modal" class="modal">
+    <span class="close">&times;</span>
+    <video controls id="modal-video" class="modal-video" autoplay></video>
+  </div>
+
+  <script>
+    const modal = document.getElementById("video-modal");
+    const modalVideo = document.getElementById("modal-video");
+    const close = document.querySelector(".close");
+
+    document.querySelectorAll(".video-thumb").forEach(video => {
+      video.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalVideo.src = video.src;
+        modalVideo.play();
+      });
+    });
+
+    close.addEventListener("click", () => {
+      modal.style.display = "none";
+      modalVideo.pause();
+      modalVideo.src = "";
+    });
+  </script>
+</body>
+
 <!-- Portfolio Section -->
 <section class="section portfolio-section">
   <h2>My Portfolio</h2>
