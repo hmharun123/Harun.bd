@@ -548,28 +548,50 @@ body {
   <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate" />
 </div>
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Video</title>
-  <link rel="stylesheet" href="video.css" />
+  <title>My Gallery</title>
+  <link rel="stylesheet" href="gallery.css" />
 </head>
 <body>
-  <h2 class="title">My Video</h2>
-
-  <div class="video-gallery">
-    <video class="video-thumb" src="media/video1.mp4" poster="media/thumb1.jpg"></video>
-    <video class="video-thumb" src="media/video2.mp4" poster="media/thumb2.jpg"></video>
-    <video class="video-thumb" src="media/video3.mp4" poster="media/thumb3.jpg"></video>
-    <video class="video-thumb" src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" poster="media/thumb4.jpg"></video>
+  <h2 class="title">My Gallery</h2>
+  <div class="gallery">
+    <img src="dara-antry.png" alt="Data Entry" />
+    <img src="property details.jpg" alt="Property Details" />
+    <img src="312.jpg" alt="Certificate" />
+    <img src="076ac6.jpg" alt="076ac6" />
+    <img src="SAMPLE.jpeg" alt="Sample" />
+    <img src="data.jpg" alt="Data" />
   </div>
 
-  <!-- Modal for fullscreen video -->
-  <div id="video-modal" class="modal">
+  <!-- Fullscreen Modal -->
+  <div id="modal" class="modal">
     <span class="close">&times;</span>
-    <video controls id="modal-video" class="modal-video" autoplay></video>
+    <img class="modal-content" id="modal-img">
   </div>
 
+  <script>
+    const modal = document.getElementById("modal");
+    const modalImg = document.getElementById("modal-img");
+    const close = document.getElementsByClassName("close")[0];
+    const images = document.querySelectorAll(".gallery img");
+
+    images.forEach((img) => {
+      img.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalImg.src = img.src;
+      });
+    });
+
+    close.onclick = function () {
+      modal.style.display = "none";
+    };
+  </script>
+</body>
+</html>
 
 <!-- YouTube Section -->
 <section class="section">
