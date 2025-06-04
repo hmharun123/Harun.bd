@@ -614,7 +614,6 @@ body {
 <!-- Homepage section -->
 <section id="gallery-link">
   <h2>My Gallery</h2>
-  <p>gallery.html.</p>
   <a href="gallery.html" class="gallery-button">View Gallery</a>
 </section>
 
