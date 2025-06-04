@@ -608,7 +608,7 @@ body {
 <div class="certificate-section">
   <h2>Certificate of Completion</h2>
   <img src="certificate.jpg" alt="Certificate" />
-  <img src="file_00000000796c6230b4fc0d1ce0c4bec8.png " alt="Certificate" />
+  <img src="file_00000000758861f884606a82c460dc7a (1).png " alt="Certificate" />
 </div>
 
 <!-- Homepage section -->
