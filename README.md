@@ -417,12 +417,7 @@ body {
   background-color: #e91e63; /* গা dark গোলাপি */
   transform: scale(1.1);
 }
-h1 {
-  text-align: center;
-  margin: 35px 0 20px 0 !important;
-}
 
-style.css
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
@@ -629,25 +624,7 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 </script>  
-<div class="container">
-  <h1>FormSubmit Demo</h1>
-  <form target="_blank" action="https://formsubmit.co/harunrm900@email.com" method="POST">
-    <div class="form-group">
-      <div class="form-row">
-        <div class="col">
-          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-        </div>
-        <div class="col">
-          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
-  </form>
-</div>
+
 </body>
 </html>
 
