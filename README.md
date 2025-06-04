@@ -683,19 +683,18 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 </script>  
-<!-- Contact Form Start -->
-<section class="contact-section">
-  <h2>Contact Me</h2>
-  <form action="https://https://formsubmit.co/support/harunrm900@email.com" method="POST" class="contact-form">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="text" name= "Devro LABS" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
-<!-- Contact Form End -->
+
+<form action="https://formsubmit.co/harunrm900@email.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+  <input type="hidden" name="_subject" value="New Contact Form Submission!">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
 </body>
 </html>
 
-"name": "Devro LABS",
