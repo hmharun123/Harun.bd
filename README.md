@@ -674,7 +674,7 @@ function scrollToTop() {
   <h2>Contact Me</h2>
   <form action="https://https://formsubmit.co/support/harunrm900@email.com" method="POST" class="contact-form">
     <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name= "Devro LABS" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" placeholder="Your Message" required></textarea>
     <button type="submit">Send Message</button>
@@ -684,3 +684,4 @@ function scrollToTop() {
 </body>
 </html>
 
+"name": "Devro LABS",
