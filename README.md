@@ -493,6 +493,58 @@ body {
       margin: 20px auto;
       max-width: 600px;
     }
+    <html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>মানিকগঞ্জের বড় মিয়া</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Hind Siliguri', sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #fff);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    .hero {
+      max-width: 600px;
+    }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #2196f3;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 32px;
+      color: #0d47a1;
+    }
+    p {
+      font-size: 18px;
+      color: #333;
+      margin: 10px 0 30px;
+    }
+    a.button {
+      display: inline-block;
+      background: #2196f3;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background: #1976d2;
+    }
   </style>
   <!-- Google CSE Script -->
   <script async src="https://cse.google.com/cse.js?cx=d3251f7aa5ee247d5"></script>
